@@ -1,2 +1,2 @@
-SELECT * FROM users
+SELECT * FROM users_bcrypt
 WHERE username = $1;
